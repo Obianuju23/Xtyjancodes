@@ -1,20 +1,26 @@
 #include <stdio.h>
 
 int main() {
-int yards;
-
-    printf("how many yards did your team move?:");
+    
+    int yards;
+    
+    printf("Enter how many yards covered or lost:");
     scanf("%d", &yards);
-
-	if (yards < 1)
-            printf("'shh'");
-    else if (yards > 1 && yards <= 10)
-            printf("'High Five'");
-    else
-        printf("'Ra!'");
+    
+     if (yards > 10)
+     {
+        printf("%s","'High Five'");
+     }  
+        else if (yards < 1)
+                {
+                printf("%s", "'shh'");
+                }           
+            for (int count = 1; count  <=  yards && yards <= 10; count++)
+        printf("%s", "'Ra'");
     
     return 0;
 }
+
 
 
 /**
