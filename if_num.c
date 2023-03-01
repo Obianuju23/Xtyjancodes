@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    double num;
+    double number;
     
         printf("input number:");
-        scanf("%lf", &num);
-     if (num < 0)
+        scanf("%lf", &number);
+     if (number < 0)
         {
         printf("The number is negative");
         }
-    else if (num == 0)
+    else if (number == 0)
         {
         printf("The number is zero");
         }
