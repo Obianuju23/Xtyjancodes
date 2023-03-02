@@ -8,7 +8,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &number);
     
-    while (count < 13 && count >= 0)
+    while (count >= 1)
     {
         int product = number*count;
         printf("%d X %d = %d\n", number, count, product);
